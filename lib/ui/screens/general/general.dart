@@ -18,10 +18,6 @@ class _GeneralState extends State<General> {
       // title: 'Wishlist',
     ),
     const TabItem(
-      icon: FeatherIcons.hash,
-      // title: 'Cart',
-    ),
-    const TabItem(
       icon: FeatherIcons.user,
       // title: 'profile',
     ),
@@ -30,7 +26,6 @@ class _GeneralState extends State<General> {
 
   List<Widget> pages = [
     const Home(),
-    // const Categories(),
     const Mytrip(),
     const More(),
     const Profile()
@@ -41,6 +36,7 @@ class _GeneralState extends State<General> {
     return Scaffold(
       body: pages.elementAt(visit),
       bottomNavigationBar: BottomBarCreative(
+        iconSize: 30.h,
         items: items,
         backgroundColor: MyColors.primaryColor,
         color: MyColors.primaryColor.withOpacity(0.3),

@@ -81,9 +81,7 @@ class _HomeState extends State<Home> {
               ),
               10.h.heightBox,
               const ToggleOptions(),
-              Container(
-                child: const FormFields(),
-              )
+               FormFields()
             ],
           ),
         ),
