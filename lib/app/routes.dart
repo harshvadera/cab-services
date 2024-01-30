@@ -23,7 +23,7 @@ class Routes {
       case home:
         return CupertinoPageRoute(builder: (context) => const Home());
       case general:
-        return CupertinoPageRoute(builder: (context) => const General());
+        return CupertinoPageRoute(builder: (context) => General());
 
       default:
         return CupertinoPageRoute(builder: (context) => const Scaffold());

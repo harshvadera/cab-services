@@ -5,3 +5,4 @@ import 'app/app.dart';
 void main() async {
   runApp(await initializeApp());
 }
+
